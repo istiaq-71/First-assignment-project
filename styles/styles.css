@@ -62,3 +62,99 @@
   color: white;
   cursor: pointer;
 }
+/* Action Section */
+.action-section {
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9faff;
+}
+
+.action-content {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  flex-wrap: wrap;
+}
+
+.text-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin-bottom: 15px;
+}
+
+.text-content p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.preview-btn {
+  padding: 10px 20px;
+  background-color: #5b5bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.image-content img {
+  width: 320px;
+  border-radius: 20px;
+}
+
+/* Productive Users Section */
+.users-section {
+  background-color: #eef0ff;
+  padding: 60px 20px;
+  display: flex;
+  width:
+
+  
+}
+
+.users-section {
+  background-color: #f5f6ffd7;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.users-box {
+  background-color: #eef0ff;
+  padding: 80px 50px;
+  border-radius: 20px;
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+.users-box h3 {
+  font-size: 38PX;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #1f1f1f;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat-box h2 {
+  font-size: 80PX;
+  font-weight: 700;
+  color: #4E47FF;
+  margin-bottom: 10px;
+}
+
+.stat-box p {
+  font-size: 1rem;
+  color: #666;
+}
