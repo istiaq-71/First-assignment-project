@@ -316,6 +316,15 @@ body{
   font-weight: 500;
   font-size: 0.95rem;
 }
+/*hover*/
+button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #e25b08;
+  transform: scale(1.03);
+}
 
 
 
