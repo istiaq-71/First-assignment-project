@@ -2,8 +2,11 @@
 .raleway-bold {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
+}
+body{
+    margin: 0; 
+  padding: 0;
 }
 
 .navbar{
@@ -12,25 +15,27 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    padding: 20px 40px;
+   
     flex-direction: column;
     justify-content: space-between;
 }
 /* Top bar logo and sign up */
 .top-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
 }
 
 
 .logo {
-  height: 300px;
+  margin-top: 15px; 
+  display: block;
 }
 
 /* Sign up button */
 .signup-btn {
-  padding: 10px 20px;
+  padding: 12px 36px;
   background-color: #4E47FF;
   border: none;
   border-radius: 8px;
@@ -42,20 +47,20 @@
 /* banner content */
 .banner-content {
   text-align: center;
-  margin-top: auto;
+  margin-top: 150px;
   margin-bottom: 100px;
 }
 
 .banner-content h1 {
-  font-size: 2.5rem;
+  font-size: 65px;
   font-weight: 700;
   margin-bottom: 30px;
   color: #252432;
 }
 
 .focus-btn {
-  padding: 12px 25px;
-  font-size: 1rem;
+  padding: 12px 36px;
+  font-size: 16px;
   background-color: #4E47FF;
   border: none;
   border-radius: 8px;
@@ -81,7 +86,7 @@
 }
 
 .text-content h2 {
-  font-size: 2rem;
+  font-size: 42px;
   font-weight: 700;
   color: #1f1f1f;
   margin-bottom: 15px;
@@ -95,7 +100,7 @@
 
 .preview-btn {
   padding: 10px 20px;
-  background-color: #5b5bff;
+  background-color: #4E47FF;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -108,18 +113,10 @@
 }
 
 /* Productive Users Section */
-.users-section {
-  background-color: #eef0ff;
-  padding: 60px 20px;
-  display: flex;
-  width:
-
-  
-}
 
 .users-section {
   background-color: #f5f6ffd7;
-  padding: 60px 20px;
+  padding: 50px 80px;
   display: flex;
   justify-content: center;
 }
@@ -158,3 +155,167 @@
   font-size: 1rem;
   color: #666;
 }
+/* Feedback Section */
+.feedback-section {
+  background-color: #f5f6ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feedback-section h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.feedback-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feedback-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 280px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.feedback-card .stars {
+  color: #f8b400;
+  font-size: 1.2rem;
+}
+
+.feedback-card h4 {
+  margin: 10px 0 5px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.feedback-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.date {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.contact-section {
+  background-color: #f9faff;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+  max-width: 1000px;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #f9faff;
+}
+
+.contact-title {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-title h2 {
+  font-size: 97px;
+  font-weight: 700;
+  color: #1f1f1f;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 300px;
+}
+
+.contact-form label {
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-form button {
+  background-color: #5b5bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.footer p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #5b5bff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+
+
